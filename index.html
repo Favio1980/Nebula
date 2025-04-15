@@ -1,28 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Duckluck - Red Verificada</title>
-
-  <!-- Meta Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1721346748791991');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1721346748791991&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
-
   <style>
     @keyframes pulse {
       0% { transform: scale(1); box-shadow: 0 0 12px #25D366; }
@@ -62,9 +44,15 @@
       height: 140px;
       border-radius: 50%;
       margin: 1em auto;
-      background: url('IMG_1358.jpg') no-repeat center center;
+      background: url('IMG_1365.jpg') no-repeat center center;
       background-size: cover;
       box-shadow: 0 0 15px #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ffbb55;
     }
 
     h1 {
@@ -210,7 +198,7 @@
     <h1>¡Uníte a los que ya están ganando!</h1>
     <h2>Hablá con nosotros por WhatsApp y activá tu cuenta en minutos</h2>
     <div class="cta">
-      <a href="https://wa.me/3516375378?text=Hola%2C%20quiero%20comunicarme%20con%20un%20cajero%20disponible" class="cta-button">
+      <a href="https://wa.me/541171961646?text=Hola%2C%20quiero%20comunicarme%20con%20un%20cajero%20disponible" class="cta-button">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
         Contactar por WhatsApp
       </a>
